@@ -20,6 +20,7 @@
     ],
     "rules": {
         "react/prefer-stateless-function": "off",
-        "class-methods-use-this": "off"
+        "class-methods-use-this": "off",
+        "react/prop-types": "off"
     }
 }
