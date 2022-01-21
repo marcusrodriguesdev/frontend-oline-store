@@ -1,9 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Home extends React.Component {
   render() {
     return (
-      <div>Digite algum termo de pesquisa ou escolha uma categoria.</div>
+      <div>
+        <div>Digite algum termo de pesquisa ou escolha uma categoria.</div>
+        <Link to="/carrinho">Carrinho</Link>
+      </div>
     );
   }
 }
