@@ -1,4 +1,4 @@
-## Frontend Oline Store - Redux
+## Frontend Oline Store
 
 Consiste em ser uma loja online desenvolvendo suas funcionalidades de acordo com as demandas definidas.
 
