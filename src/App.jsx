@@ -1,9 +1,14 @@
 import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 class App extends React.Component {
   render() {
     return (
-      <div>App</div>
+      <BrowserRouter>
+        <Switch>
+          <Route />
+        </Switch>
+      </BrowserRouter>
     );
   }
 }
